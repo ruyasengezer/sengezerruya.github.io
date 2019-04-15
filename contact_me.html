@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8"><style>
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: green;
+        }
+        a:hover {
+            color: hotpink;
+        }
+        a:active {
+            color: blue;
+        }
+    </style><style>
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: hotpink;
+            border: 2px solid #4CAF50;
+            width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+    <title>Contact Me</title>
+</head>
+<body style="background-color:bisque;"><div align="center">
+    <br><br>
+
+    <div class="sticky"><table style="width:8%; color: violet; font-size: 30px">
+        <th> <a href= "index.html"> <p> Homepage| </p></a>  </th>
+        <th> <a href="films.html"> <p> Films|</p> </a>  </th>
+        <th> <a href="books.html"> <p> Books|</p></a> </th>
+        <th> <a href="musics.html"><p> Musics|</p></a>  </th>
+        <th> <a href="useful_links.html"><p> UsefulLinks|</p></a> </th>
+        <th> <a href="contact_me.html"><p style="font-size:50px; color:darkviolet"> ContactMe|</p></a> </th>
+        <th> <a href="registiration.html"><p> Registration </p></a></th>
+    </table></div>
+    <h1> CONTACT ME </h1>
+
+    <form action="/action_page.php">
+        Name Surname:<br>
+        <input type="text" name="firstname">
+
+        <br>
+        Telephone:<br>
+        <input type="tel" name="usrtel" maxlength="11" placeholder="max length is 11">
+        <br>
+        E-mail:<br>
+        <input type="email" name="email" placeholder="abc@xyz">
+        <br>
+        Message:<br>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br>
+        <button type="button" onclick="alert('Your message is sent!')" class="btn btn-primary btn-lg">SEND</button>
+
+
+        <h2> OR </h2>
+        If you want to contact me, please click to the adress below:<br>
+        <p><a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=new">
+            ruyasengezer@gmail.com</a></p>
+
+        <br><br>
+        <a href="index.html"><img border="0" alt="homepage" src="homepage.png" width="100" height="100"></a><br>
+        <a href= "https://www.instagram.com/ruuyasengezer"><img border="0" alt="instagram" src="instagram.jpg" width="100" height="100"></a>
+        <a href= "https://www.twitter.com/ruuyasengezer"> <img border="0" alt="twitter" src="twitter.png" width="100" height="100"></a>
+    </form>
+</div>
+</body>
+</html>
